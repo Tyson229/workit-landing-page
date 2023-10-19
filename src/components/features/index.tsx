@@ -3,7 +3,7 @@ import { features } from "@/lib/data";
 import FeatureItem from "./FeatureItem";
 const Features = () => {
   return (
-    <ul className="features relative flex w-full flex-col items-center gap-y-10 px-4">
+    <ul className="features relative flex w-full flex-col items-center justify-center gap-y-10 px-4 pb-16 pt-32 md:pt-48 xl:flex-row xl:gap-x-10 xl:pb-36 xl:pt-56">
       {features.map(({ title, description }, i) => (
         <FeatureItem
           key={i}
@@ -12,7 +12,6 @@ const Features = () => {
           description={description}
         />
       ))}
-      <li className="h-16 w-full"></li>
     </ul>
   );
 };

@@ -21,7 +21,22 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #FCF8FF;
+  background-color: #fcf8ff;
   border-radius: 0 0 100% 100% / 0 0 30% 30%;
   transform: scaleX(1.5);
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1536px) {
+  .hero::before,
+  .features::before {
+    border-radius: 0 0 100% 100% / 0 0 50% 50%;
+    transform: scaleX(1.2);
+  }
+}
+@media screen and (min-width: 1536px) {
+  .hero::before,
+  .features::before {
+    border-radius: 0 0 100% 100% / 0 0 100% 100%;
+    transform: scaleX(1.2);
+  }
 }
