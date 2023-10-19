@@ -11,9 +11,9 @@ const InfoBox = () => {
         className="mb-2 font-sans text-[16px] font-extralight leading-7 xl:text-base
       "
       >
-        Hi, I'm Louis Graham, the founder of the company. Book a demo call with
-        me to become a beta tester for our app and kickstart your company. Apply
-        for access below and I'll be in touch to schedule a call.
+        Hi, I&apos;m Louis Graham, the founder of the company. Book a demo call
+        with me to become a beta tester for our app and kickstart your company.
+        Apply for access below and I&apos;ll be in touch to schedule a call.
       </p>
       <PrimaryButton title="Apply for access" />
     </div>
